@@ -1,0 +1,1 @@
+confirm("Condirmação do script externo")

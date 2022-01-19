@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:90%;
+    height: 100%;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+border-style: solid;
+border-width: px;
+border-color: blue;
+padding: 20px;
+}
+h1{
+    background-color: rgb(71, 71, 170);
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin: 50px;
+    border:3px double darkgreen;
+    padding: 20px;
+}
+p{
+    display: inline;
+    background-color: rgb(231, 183, 183);
+}
+span{
+    display:block;
+    background-color: aqua
+}
+.box1{
+    position: static;
+    background-color: rgb(238, 238, 99);
+    width: 400px;
+    height: 50px;
+}
+.box2{
+    position: relative;
+    background-color: rgb(106, 207, 114);
+    width: 400px;
+    height: 50px; 
+    bottom: 50px;
+    left: 450px;
+}
+.box3{
+    position: absolute;
+    background-color: rgb(231, 151, 76);
+    width: 400px;
+    height: 50px; 
+    bottom: 100px;
+    left: 450px;
+}
+
+.box4{
+    position: fixed;
+    background-color: rgb(218, 79, 125);
+    width: 400px;
+    height: 50px; 
+    bottom: 50px;
+    left: 450px;
+}
+.box5{
+    position: sticky;
+    background-color: rgb(230, 86, 86);
+    width: 400px;
+    height: 50px; 
+    bottom: 200px;
+    left: 150px;
+}
+
+.layer1{
+    position: relative;
+    background-color: violet;
+    width: 80px;
+    height: 70px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.layer2{
+    position: relative;
+    background-color: rgb(12, 247, 157);
+    width: 80px;
+    height: 70px;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}

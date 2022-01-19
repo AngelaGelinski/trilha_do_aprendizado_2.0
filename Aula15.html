@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintese da aula 15</title>
+    <link rel="stylesheet" href="index-layout.css">
+</head>
+<body>
+    <h1 style="color: rgb(252, 245, 248);background-color: rgb(255,20,147); text-align: center; ">Multimidias</h1>
+    <p>
+        É uma forma de comunicação que combina diferentes formas de conteudo, <strong> como texto,audio, imagens, animações ou videos</strong> em uma unica apresentação.
+    </p>
+    <h2> Tags</h2>
+    <h3>Tag INFRAME e sua incorporação. </h3>
+       <p> Essa tag é usada para incorporar outro documento no HTML como: outro site, videos, audios etc.<br>Exemplo do uso da tag:</p>
+       <iframe src="https://irati.ifpr.edu.br/" height="300" width="300"></iframe>
+       <h3>Audio pela tag inframe</h3>
+       <iframe width="30%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1130424082&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dirtyprydz" title="Dirty Prydz" target="_blank" style="color: #cccccc; text-decoration: none;">Dirty Prydz</a> · <a href="https://soundcloud.com/dirtyprydz/dirty-radio-by-dirty-prydz-031-melhores-eletronicas-2021-set-alok-vintage-culture-dirty-prydz" title="DIRTY RADIO By Dirty Prydz 031 | MELHORES ELETRONICAS 2021 | SET ALOK, VINTAGE CULTURE &amp; DIRTY PRYDZ" target="_blank" style="color: #cccccc; text-decoration: none;">DIRTY RADIO By Dirty Prydz 031 | MELHORES ELETRONICAS 2021 | SET ALOK, VINTAGE CULTURE &amp; DIRTY PRYDZ</a></div>
+       <h3> YouTube videos </h3>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2>Tag video </h2>
+      <p> Essa tag é usada para adicionar videos, imagens estaticas e  audios da sua propria maquina.</p>
+      <video poster="video/Bike.jpg" controls >
+        <source src="video/_Bike.mp4" type="video/mp4">
+        <source src="video/Bike.webm" type="video/webm">
+        <source src="video/Bike.ogv"  type="video/ogg">
+    </video>
+       <h2> Tag audio </h2>
+       <p> Audios que estão armazenados em seu computador ou na  biblioteca do youtube.</p>
+       <audio preload="metadata" controls>
+        <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+        <source src="audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+       </audio>
+        <h2> Tag imagem</h2>
+        <p> A tag imagem conhecida tambem por picture, tem a finalidade de agrupar algumas imagens que estão disponibilizada  no seu computador, podendo trocar as suas configuraçoes.</p>
+        <picture>
+            <source  media="(max-width:500px)" srcset="img/bike_110.jpg">
+        <img  src="img/bike_full.jpg" alt="Por do sol.">
+        
+        </picture>
+</body>
+</html>
