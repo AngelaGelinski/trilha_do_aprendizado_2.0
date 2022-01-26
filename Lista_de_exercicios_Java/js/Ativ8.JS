@@ -1,0 +1,1 @@
+/*Crie um script que gere o fatorial de um número. Ex: 3! = 3x2x1 = 6*/

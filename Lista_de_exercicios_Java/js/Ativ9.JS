@@ -1,0 +1,1 @@
+/*Crie um script que diga se um número é múltiplo de 3 ou 7. */
