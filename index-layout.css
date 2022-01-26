@@ -13,10 +13,12 @@ header{
 .principal{
     float: left;
     margin: 15px 2px 25px 2px;
+    border-radius: 5xp;
     background-color: rgb(255, 255, 255);
 }
 .conteudo{
     float: left;
     margin: 15px 4px 30px 4px;
+    border-radius: 5xp;
     background-color: white;
 }
