@@ -17,3 +17,5 @@ aler(lista[3])
 for(var i=0;i<lista.legnht;i++){
 document.write("<h2>" +lista[i]+"</h2>")
 }
+lista.push("84500-000")
+alert(lista)
