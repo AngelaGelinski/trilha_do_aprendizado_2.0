@@ -13,7 +13,7 @@ header{
 .principal{
     float: left;
     margin: 15px 2px 25px 2px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 .conteudo{
     float: left;
