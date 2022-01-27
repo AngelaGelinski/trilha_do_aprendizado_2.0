@@ -1,9 +1,9 @@
-var v=[4, 8, 7, 6]
+var v = [4, 5, 6, 8]
 
 alert(v)
 
 alert(v[2])
-v[1=3]
+v[1] = 3
 alert(v)
 
 var soma
