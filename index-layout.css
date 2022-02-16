@@ -9,16 +9,28 @@ header{
     background-color: rgb(235, 137, 154);
     border-radius: 5px;
     margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ec9eaa;
+    width: 400px
+    
 }
 .principal{
     float: left;
     margin: 15px 2px 25px 2px;
-    border-radius: 5xp;
+    border-radius: 5px;
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ec9eaa;
+    width: 400px
+    
+
 }
 .conteudo{
     float: left;
     margin: 15px 4px 30px 4px;
-    border-radius: 5xp;
+    border-radius: 5px;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ec9eaa;
+    width: 400px
 }
