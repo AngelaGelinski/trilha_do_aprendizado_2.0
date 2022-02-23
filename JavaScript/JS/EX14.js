@@ -6,12 +6,15 @@ function enviar(){
     if(nome.value!=""&& nome.value.indexOf("")!=-1){
         if(email.value.indexOf("@")!=-1){
             alert(nome.value+"agradecemos o seu contato!")
-
+         ok=true
         }
-      alert("Deu certo")
+        else{
+            alert("Digite um email valido!!")
+        }
+      
     }
     else{
         alert("Prencha o seu nome completo")
     }
-    return false
+return ok
 }
